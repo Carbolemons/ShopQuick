@@ -33,3 +33,15 @@ A quick plugin to plug your shop link. Made by request for Spasboy.tk
 Flavor: "&lVisit our store at"
 ShopLink: "&b&lstore.spasboy.tk"
 ```
+
+# Permission Nodes
+```yml
+  shop:
+    description: Sends the shop link to the player
+    usage: /<command>
+    permission: shopquick.use
+  reload:
+    description: Reloads the Config
+    usage: /<command>
+    permission: shopquick.reload
+```
