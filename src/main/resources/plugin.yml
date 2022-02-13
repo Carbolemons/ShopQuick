@@ -1,3 +1,17 @@
 name: ShopQuick
 version: 1.0
 main: com.carbolemons.shopquick.ShopQuick
+
+commands:
+  shop:
+    description: Sends the shop link to the player
+    usage: /<command>
+    permission: shopquick.use
+  reload:
+    description: Reloads the Config
+    usage: /<command>
+    permission: shopquick.reload
+
+permissions:
+  shopquick.use:
+    default: true
